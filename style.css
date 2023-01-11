@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-color: blueviolet;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+   
+}
+
+h1::selection{
+    color: black;
+    /* background-color: yellow; */
+}
+
+.set{
+    display: flex;
+    justify-content: center;
+    margin: 140px 0px;
+    flex-wrap: wrap;
+    
+}
+
+.drum{
+    height: 120px;
+    width: 120px;
+    margin: 0px 10px;
+    font-size: 65px;
+    color: rgb(255, 0, 212);
+    background-color: white;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 8px solid rgb(175, 171, 173);
+    border-radius: 5px;
+   
+}
+
+.w{
+    background-image: url('images/crash.png');
+    background-repeat: no-repeat;
+}
+
+.a{
+    background-image: url('images/kick.png');
+    background-repeat: no-repeat;
+}
+
+.s{
+    background-image: url('images/snare.png');
+    background-repeat: no-repeat;
+}
+
+.d{
+    background-image: url('images/tom1.png');
+    background-repeat: no-repeat;
+}
+
+.j{
+    background-image: url('images/tom2.png');
+    background-repeat: no-repeat;
+}
+
+.k{
+    background-image: url('images/tom3.png');
+    background-repeat: no-repeat;
+}
+
+.l{
+    background-image: url('images/tom4.png');
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:996px) {
+
+
+    
+    .set{
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    
+    }
+
+    .drum{
+        height: 120px;
+        width: 120px;
+        margin: 10px 10px;
+        font-size: 65px;
+        color: rgb(255, 0, 212);
+        background-color: white;
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 8px solid rgb(175, 171, 173);
+        border-radius: 5px;
+        
+       
+    }
+
+}
+
+@media only screen and (max-width:996px) {
+    footer{
+        background-color: white;
+        color: black;
+    }
+    
+}
+
+
+@media only screen and (max-width:558px) {
+    .set{
+        display: flex;
+        justify-content: center;
+        margin: 70px 0px;
+        flex-wrap: wrap;
+        
+    }
+    
+}
+
